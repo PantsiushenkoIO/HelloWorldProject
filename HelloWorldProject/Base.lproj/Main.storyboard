@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
@@ -12,22 +12,21 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HelloWorldProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="kez-Ka-AY6">
-                                <rect key="frame" x="32" y="94" width="350" height="718"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="kez-Ka-AY6">
+                                <rect key="frame" x="20" y="20" width="280" height="528"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UTD-eu-zBN">
-                                        <rect key="frame" x="0.0" y="0.0" width="350" height="334"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="280" height="254"/>
                                         <viewLayoutGuide key="safeArea" id="7Ik-CL-1hC"/>
                                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V7F-BC-jxD">
-                                        <rect key="frame" x="0.0" y="384" width="350" height="334"/>
+                                        <rect key="frame" x="0.0" y="274" width="280" height="254"/>
                                         <viewLayoutGuide key="safeArea" id="V5z-Pd-3d0"/>
                                         <color key="backgroundColor" systemColor="systemRedColor"/>
                                     </view>
@@ -37,14 +36,14 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="kez-Ka-AY6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7LA-OG-Dlf"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="kez-Ka-AY6" secondAttribute="bottom" constant="50" id="H80-sH-Di6"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kez-Ka-AY6" secondAttribute="trailing" constant="32" id="Ub0-Td-JMS"/>
-                            <constraint firstItem="kez-Ka-AY6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="32" id="adf-dL-Z9X"/>
-                            <constraint firstItem="kez-Ka-AY6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="kRq-QO-FRq"/>
+                            <constraint firstItem="kez-Ka-AY6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="B3L-n5-4lm"/>
+                            <constraint firstItem="kez-Ka-AY6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="JoS-In-Wh3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="kez-Ka-AY6" secondAttribute="trailing" constant="20" id="oOi-h8-oBx"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="kez-Ka-AY6" secondAttribute="bottom" constant="20" id="zgE-jb-Ab2"/>
                         </constraints>
                     </view>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-213.04347826086959" y="87.723214285714278"/>
         </scene>
